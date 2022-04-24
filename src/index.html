@@ -20,7 +20,7 @@
 				<div class="menu-button" id="button-settings">settings</div>
 			</div>
 			
-		    <div id="version-box">v 0.0.3</div>
+		    <div id="version-box">loading version</div>
 		</div>
 	   
 	    <div id="scene-box">
@@ -132,6 +132,10 @@
 				
 				Vars.changeable.pause = true;
 			});
+			
+			window.onload = function(){
+				document.getElementById('version-box').innerHTML = Vars.version.name;
+			};
 			
 			document.getElementById('button-pause').onclick = function(){
 			        document.getElementById('menu-box').style.visibility = 'visible';

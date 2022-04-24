@@ -1,7 +1,7 @@
 {
   "name": "magicis-mundi-desktop",
   "productName": "magicis-mundi-desktop",
-  "version": "0.0.5",
+  "version": "pre-alpha 0.0.4",
   "description": "Game",
   "main": "src/index.js",
   "scripts": {

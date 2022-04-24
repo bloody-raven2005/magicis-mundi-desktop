@@ -1,7 +1,7 @@
 const Vars = {
 	
 	version: Object.freeze({
-		name: "0.1",
+		name: "pre-alpha 0.0.4",
 		update: 0,
 	}),
 	

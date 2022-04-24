@@ -58,6 +58,8 @@ body, html {
 	position: absolute;
 	left: 4px;
 	bottom: 4px;
+	
+	visibility: hidden;
 }
 
 #joystick{
@@ -188,6 +190,8 @@ input:checked + .slider:before {
   height: 100%;
   width: 100%;
   background-color: rgb( 0, 0, 0, 0.4);
+  
+  visibility: hidden;
 }
 
 #message {
@@ -339,10 +343,11 @@ input:checked + .slider:before {
 #version-box{
 	background-color: #00000000;
 	
-	width: 5em;
+	width: 10em;
 	height: 1.2em;
 	
-	text-align: center;
+	text-align: right;
+	padding-right: 0.5em;
 	font-family: Marker Felt, fantasy;
 	
 	position: absolute;

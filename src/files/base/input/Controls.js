@@ -214,6 +214,8 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phon
 		}
 	}*/
         });
+		
+	document.getElementById('joyDiv').style.visibility = 'visible';
 }else{
 	console.log('You use PC')
 	document.getElementById('joyDiv').style.visibility = 'hidden';
